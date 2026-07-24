@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "express": "^5.2.1",
+    "multer": "^2.2.0",
+    "pg": "^8.22.0",
+    "sharp": "^0.35.3",
+    "uuid": "^14.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.2.0",
+    "@types/cors": "^2.8.19",
+    "@types/node": "^26.1.1",
+    "@types/pg": "^8.20.0",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
