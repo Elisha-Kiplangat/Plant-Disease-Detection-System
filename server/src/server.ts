@@ -4,7 +4,7 @@ import path from "path";
 import fs from "fs";
 import cors from "cors";
 
-import { predictPlantDisease } from "./inference";
+import { predictPlantDisease } from "./inference.js";
 import {
   savePrediction,
   getPredictions,
