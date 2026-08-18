@@ -18,7 +18,7 @@ export function predictPlantDisease(
       "predict.py"
     );
 
-    const python = spawn("py", [
+    const python = spawn("python", [
       pythonScript,
       imagePath,
     ]);

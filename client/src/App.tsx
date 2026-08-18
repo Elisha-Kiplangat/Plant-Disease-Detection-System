@@ -25,7 +25,7 @@ export default function App() {
 
   async function fetchHistory() {
     try {
-      const res = await fetch(`${import.meta.env.BACKEND_URL}predictions`);
+      const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}predictions`);
       const data = await res.json();
       setHistory(data);
     } catch {}
@@ -55,7 +55,7 @@ export default function App() {
     form.append("image", file);
 
     try {
-      const res = await fetch(`${import.meta.env.BACKEND_URL}upload`, {
+      const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}upload`, {
         method: "POST",
         body: form,
       });
