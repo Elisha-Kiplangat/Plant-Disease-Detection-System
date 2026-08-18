@@ -234,17 +234,17 @@ export default function App() {
 
         </div>
 
-        {/* <div className="metric-card">
+        <div className="metric-card">
 
           <span>Health Score</span>
 
           <strong>{prediction.health_score}%</strong>
 
-        </div> */}
+        </div>
 
       </div>
 
-      {/* <div className="health-section">
+      <div className="health-section">
 
         <div className="health-header">
 
@@ -264,7 +264,7 @@ export default function App() {
 
         </div>
 
-      </div> */}
+      </div>
 
     </>
   )}
@@ -297,7 +297,7 @@ export default function App() {
 
               <th>Confidence</th>
 
-              {/* <th>Health</th> */}
+              <th>Health</th>
 
             </tr>
 
@@ -323,7 +323,7 @@ export default function App() {
                 <td>{item.plant_name}</td>
                 <td>{item.disease}</td>
                 <td>{item.confidence}%</td>
-                {/* <td>{item.health_score}%</td> */}
+                <td>{item.health_score}%</td>
               </tr>
             ))}
 

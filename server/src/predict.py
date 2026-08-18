@@ -119,4 +119,3 @@ if __name__ == "__main__":
         predict(image_path)
     ))
 
-    # what does this do? It seems to be a script for predicting tomato plant diseases using a TensorFlow Lite model. It loads the model and labels, preprocesses an input image, runs the prediction, and returns the predicted disease along with confidence and health score.
